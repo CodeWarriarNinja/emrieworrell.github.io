@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007BFF; 
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /*hovered */
+}
+
+/* Home Page Content */
+.home-content {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.home-content h1 {
+    font-size: 3em;
+    color: #007BFF;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 2.5em;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/*layout*/
+.featured-products .product {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    background-color: #007BFF; 
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    color: white; 
+    transition: background-color 0.3s ease;
+}
+
+/*scaling*/
+.featured-products .product img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    object-fit: cover; 
+}
+
+/* Product Text */
+.featured-products .product h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.featured-products .product p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Product Button */
+.featured-products .product a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0056b3; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect  */
+.featured-products .product:hover {
+    background-color: #0056b3; 
+}
+
+
+.featured-products .product a:hover {
+    background-color: #003d7a; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
